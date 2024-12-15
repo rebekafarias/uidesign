@@ -1,6 +1,6 @@
 # DevClass
 
-## Description
+## Introduction
 A responsive code courses website.
 
 ## Technologies Used
