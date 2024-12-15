@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Courses - DevClass</title>
+  <meta name="description" content="Development courses for developers.">
+
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="header-bg">
+    <div class="header container">
+      <h1 class="font-1-xl cor-p2">DevClass</h1>
+
+      <nav aria-label="first">
+        <ul class="header-menu font-1-m cor-0">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./plans.html">Plans</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="title-bg">
+      <div class="title container">
+        <p class="font-2-l-b cor-5">We send you a confirm e-mail</p>
+        <h1 class="font-1-xxl cor-0">Choose one<span class="cor-p1">.</span></h1>
+      </div>
+    </div>
+
+    <form class="budget container" action="./budget.html">
+      <div class="budget-product">
+        <h2 class="font-1-xs cor-5">Course or Plan?</h2>
+
+        <input type="radio" name="course" value="course" id="course">
+        <label for="course">Course</label>
+
+        <input type="radio" name="type" value="plan" id="plan">
+        <label for="plan">Plan</label>
+
+        <div class="budget-content" id="budget-course">
+          <h2 class="font-1-xs cor-5">Choose one</h2>
+
+          <input type="radio" name="product" value="front-end" id="front-end">
+          <label for="front-end">Front-End Developer <span>$ 5000</span></label>
+          <div class="budget-details">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./img/skills/javascript.svg" alt="">Javascript</li>
+              <li><img src="./img/skills/typescript.svg" alt="">Typescript</li>
+              <li><img src="./img/skills/react.svg" alt="">React</li>
+              <li><img src="./img/skills/vue.svg" alt="">VueJS</li>
+            </ul>
+            <img src="./img/courses/frontend.png" alt=>
+          </div>
+
+          <input type="radio" name="product" value="back-end" id="back-end">
+          <label for="back-end">Back-End Developer <span>$ 5000</span></label>
+          <div class="budget-details">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./img/skills/javascript.svg" alt="">Javascript</li>
+              <li><img src="./img/skills/typescript.svg" alt="">Typescript</li>
+              <li><img src="./img/skills/node.svg" alt="">NodeJS</li>
+              <li><img src="./img/skills/mongodb.svg" alt="">MongoDB</li>
+            </ul>
+            <img src="./img/courses/backend.png" alt="">
+          </div>
+
+          <input type="radio" name="product" value="fullstack" id="fullstack">
+          <label for="fullstack">Full Stack Developer <span>$ 12000</span></label>
+          <div class="budget-details">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./img/skills/javascript.svg" alt="">Javascript</li>
+              <li><img src="./img/skills/typescript.svg" alt="">Typescript</li>
+              <li><img src="./img/skills/react.svg" alt="">React</li>
+              <li><img src="./img/skills/vue.svg" alt="">VueJS</li>
+              <li><img src="./img/skills/node.svg" alt="">NodeJS</li>
+              <li><img src="./img/skills/mongodb.svg" alt="">MongoDB</li>
+            </ul>
+            <img src="./img/courses/fullstack.png" alt="">
+          </div>
+        </div>
+
+        <div class="budget-content" id="budget-plan">
+          <h2 class="font-1-xs cor-5">Choose one</h2>
+
+          <input type="radio" name="product" value="silver" id="silver">
+          <label for="silver">Silver <span>$ 199</span></label>
+
+          <input type="radio" name="product" value="gold" id="gold">
+          <label for="gold">Gold <span>$ 299</span></label>
+        </div>
+      </div>
+
+      <div class="budget-data form">
+        <h2 class="font-1-xs cor-9 col-2">personal data</h2>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="lastname">Lastname</label>
+          <input type="text" id="lastname" name="lastname">
+        </div>
+        <div class="col-2">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+        </div>
+        <div class="col-2">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <h2 class="font-1-xs cor-9 col-2">Adress</h2>
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep">
+        </div>
+        <div>
+          <label for="number">Number</label>
+          <input type="text" id="number" name="number">
+        </div>
+        <div>
+          <label for="street">Street</label>
+          <input type="text" id="street" name="street">
+        </div>
+        <div>
+          <label for="neighborhood">District</label>
+          <input type="text" id="neighborhood" name="neighborhood">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city">
+        </div>
+        <div>
+          <label for="state">State</label>
+          <input type="text" id="state" name="state">
+        </div>
+        <button class="button col-2">BUY</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <h1 class="font-1-xl cor-p2">DevClass</h1>
+      <div class="footer-contact">
+        <h3 class="font-2-l-b cor-0">Contact</h3>
+        <ul class="font-2-m cor-5">
+          <li><a href="#">9999-9999</a></li>
+          <li><a href="#">email@email.com</a></li>
+          <li>Name Street, 0</li>
+          <li>Name City</li>
+        </ul>
+        <div class="footer-medias">
+          <a href="#">
+            <img src="./img/medias/instagram.svg" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="#">
+            <img src="./img/medias/facebook.svg" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="#">
+            <img src="./img/medias/youtube.svg" width="32" height="32" alt="Youtube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <h3 class="font-2-l-b cor-0">Pages</h3>
+        <nav>
+          <ul class="font-1-m cor-5">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./courses.html">Courses</a></li>
+            <li><a href="./plans.html">Plans</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-copy font-2-m cor-6">REBEKA FARIAS</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

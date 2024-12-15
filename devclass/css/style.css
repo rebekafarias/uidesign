@@ -1,0 +1,26 @@
+/* global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* utilities */
+@import "./utilities/colors.css";
+@import "./utilities/font.css";
+@import "./utilities/components.css";
+@import "./utilities/form.css";
+
+/* home */
+@import "./home/intro.css";
+@import "./courses/courses-list.css";
+
+/* courses*/
+@import "./courses/courses.css";
+
+/* skills */
+@import "./home/skills.css";
+
+/* plans */
+@import "./plans/plans.css";
+
+/* budget */
+@import "./budget/budget.css";
