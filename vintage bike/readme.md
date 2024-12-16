@@ -1,6 +1,4 @@
-# Vintage Bike 
-
-## Introduction
+## Vintage Bike 
 Bike store. 
 
 ## Features
