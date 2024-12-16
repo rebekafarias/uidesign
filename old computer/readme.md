@@ -1,6 +1,4 @@
-# Old Computer 
-
-## Introduction
+## Old Computer 
 A responsive website from old computers.
 
 ## Technologies Used
