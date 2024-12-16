@@ -1,6 +1,4 @@
-# DevClass
-
-## Introduction
+## DevClass
 A responsive code courses website.
 
 ## Technologies Used
